@@ -1,0 +1,2 @@
+all:
+	g++ -I src/include/costum_headers -I src/include/SDL2 -I vcpkg/installed/x64-windows/include -L src/lib -L vcpkg/installed/x64-windows/lib -o main code/main.cpp code/entity.cpp code/universe.cpp -lmingw32 -lSDL2main -lSDL2 -lSDL2_image
